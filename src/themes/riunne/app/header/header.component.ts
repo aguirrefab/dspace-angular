@@ -5,7 +5,7 @@ import { HeaderComponent as BaseComponent } from '../../../../app/header/header.
  * Represents the header with the logo and simple navigation
  */
 @Component({
-  selector: 'ri-header',
+  selector: 'ds-header',
   styleUrls: ['header.component.scss'],
   templateUrl: 'header.component.html',
 })
