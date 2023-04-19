@@ -4,7 +4,7 @@ import { SEARCH_CONFIG_SERVICE } from '../../../../app/my-dspace-page/my-dspace-
 import { SearchConfigurationService } from '../../../../app/core/shared/search/search-configuration.service';
 
 @Component({
-  selector: 'ds-search-page',
+  selector: 'ri-search-page',
   // styleUrls: ['./search-page.component.scss'],
   // templateUrl: './search-page.component.html'
   templateUrl: '../../../../app/search-page/search-page.component.html',
@@ -20,5 +20,5 @@ import { SearchConfigurationService } from '../../../../app/core/shared/search/s
  * This component represents the whole search page
  * It renders search results depending on the current search options
  */
-export class SearchPageComponent extends BaseComponent {}
+export class SearchPageComponent extends BaseComponent { }
 
