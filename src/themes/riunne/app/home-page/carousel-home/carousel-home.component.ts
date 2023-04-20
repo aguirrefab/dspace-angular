@@ -9,8 +9,6 @@ import { NgIf } from '@angular/common';
     templateUrl: './carousel-home.html',
     styleUrls: ['./carousel-home.scss'],
 })
-export class NgbdCarouselBasic {
+export class CarouselHome {
     images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
 }
-
-
