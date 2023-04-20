@@ -1,10 +1,16 @@
 import { Component } from '@angular/core';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgIf } from '@angular/common';
 
 @Component({
     selector: 'ri-carousel-home',
-    templateUrl: './carousel-home.component.html',
-    styleUrls: ['./carousel-home.component.scss'],
+    standalone: true,
+    imports: [NgbCarouselModule, NgIf],
+    templateUrl: './carousel-home.html',
+    styleUrls: ['./carousel-home.scss'],
 })
-export class CarouselHome {
+export class NgbdCarouselBasic {
     images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
 }
+
+

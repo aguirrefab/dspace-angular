@@ -54,6 +54,10 @@ import {
   ItemSearchResultListElementComponent
 } from './app/shared/object-list/search-result-list-element/item-search-result/item-types/item/item-search-result-list-element.component';
 import { CarouselHome } from './app/home-page/carousel-home/carousel-home.component';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+
+
+
 /**
  * Add components that use a custom decorator to ENTRY_COMPONENTS as well as DECLARATIONS.
  * This will ensure that decorator gets picked up when the app loads
@@ -102,6 +106,7 @@ const DECLARATIONS = [
     ItemPageModule,
     ItemSharedModule,
     DsoPageModule,
+    NgbCarouselModule,
   ],
   declarations: DECLARATIONS,
   providers: [
