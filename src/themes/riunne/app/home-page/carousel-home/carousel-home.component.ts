@@ -1,10 +1,7 @@
 import { Component } from '@angular/core';
-import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
-import { NgIf } from '@angular/common';
 
 @Component({
     selector: 'ri-carousel-home',
-    imports: [NgbCarouselModule, NgIf],
     templateUrl: './carousel-home.html',
     styleUrls: ['./carousel-home.scss'],
 })
