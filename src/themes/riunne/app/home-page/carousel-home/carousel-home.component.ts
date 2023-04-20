@@ -6,8 +6,9 @@ import { NgIf } from '@angular/common';
     selector: 'ri-carousel-home',
     standalone: true,
     imports: [NgbCarouselModule, NgIf],
-    templateUrl: './carousel-basic.html',
+    templateUrl: './carousel-home.component.html',
+    styleUrls: ['./carousel-home.component.scss'],
 })
-export class CarouselHome extends BaseComponent {
+export class CarouselHome {
     images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
 }
