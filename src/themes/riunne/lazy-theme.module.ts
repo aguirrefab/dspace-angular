@@ -146,7 +146,6 @@ import {
   MediaViewerVideoComponent
 } from './app/item-page/media-viewer/media-viewer-video/media-viewer-video.component';
 import { NgxGalleryModule } from '@kolkov/ngx-gallery';
-import { CarouselHome } from './app/home-page/carousel-home/carousel-home.component';
 
 const DECLARATIONS = [
   FileSectionComponent,
@@ -214,7 +213,6 @@ const DECLARATIONS = [
   MediaViewerComponent,
   MediaViewerImageComponent,
   MediaViewerVideoComponent,
-  CarouselHome,
 ];
 
 @NgModule({
@@ -273,7 +271,6 @@ const DECLARATIONS = [
     DsoSharedModule,
     SystemWideAlertModule,
     NgxGalleryModule,
-    NgbCarouselModule,
   ],
   declarations: DECLARATIONS,
   exports: [

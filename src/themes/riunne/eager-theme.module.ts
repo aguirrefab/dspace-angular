@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from '../../app/shared/shared.module';
-import { HomeNewsComponent, RIHomeNewsComponent } from './app/home-page/home-news/home-news.component';
+import { HomeNewsComponent } from './app/home-page/home-news/home-news.component';
 import { NavbarComponent } from './app/navbar/navbar.component';
 import { SearchNavbarComponent } from './app/search-navbar/search-navbar.component';
 import { HeaderComponent } from './app/header/header.component';
@@ -53,10 +53,7 @@ import {
 import {
   ItemSearchResultListElementComponent
 } from './app/shared/object-list/search-result-list-element/item-search-result/item-types/item/item-search-result-list-element.component';
-import { CarouselHome } from './app/home-page/carousel-home/carousel-home.component';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
-import { HomePageComponent } from './app/home-page/home-page.component';
-
 
 
 /**
