@@ -21,25 +21,25 @@ import {
 import { UntypedItemComponent } from './app/item-page/simple/item-types/untyped-item/untyped-item.component';
 import { ItemSharedModule } from '../../app/item-page/item-shared.module';
 import {
-    CreateCollectionParentSelectorComponent
+  CreateCollectionParentSelectorComponent
 } from './app/shared/dso-selector/modal-wrappers/create-collection-parent-selector/create-collection-parent-selector.component';
 import {
-    CreateCommunityParentSelectorComponent
+  CreateCommunityParentSelectorComponent
 } from './app/shared/dso-selector/modal-wrappers/create-community-parent-selector/create-community-parent-selector.component';
 import {
-    CreateItemParentSelectorComponent
+  CreateItemParentSelectorComponent
 } from './app/shared/dso-selector/modal-wrappers/create-item-parent-selector/create-item-parent-selector.component';
 import {
-    EditCollectionSelectorComponent
+  EditCollectionSelectorComponent
 } from './app/shared/dso-selector/modal-wrappers/edit-collection-selector/edit-collection-selector.component';
 import {
-    EditCommunitySelectorComponent
+  EditCommunitySelectorComponent
 } from './app/shared/dso-selector/modal-wrappers/edit-community-selector/edit-community-selector.component';
 import {
-    EditItemSelectorComponent
+  EditItemSelectorComponent
 } from './app/shared/dso-selector/modal-wrappers/edit-item-selector/edit-item-selector.component';
 import { CommunityListElementComponent } from './app/shared/object-list/community-list-element/community-list-element.component';
-import { CollectionListElementComponent} from './app/shared/object-list/collection-list-element/collection-list-element.component';
+import { CollectionListElementComponent } from './app/shared/object-list/collection-list-element/collection-list-element.component';
 import { CollectionDropdownComponent } from './app/shared/collection-dropdown/collection-dropdown.component';
 import { SharedBrowseByModule } from '../../app/shared/browse-by/shared-browse-by.module';
 import { ResultsBackButtonModule } from '../../app/shared/results-back-button/results-back-button.module';
@@ -53,7 +53,7 @@ import {
 import {
   ItemSearchResultListElementComponent
 } from './app/shared/object-list/search-result-list-element/item-search-result/item-types/item/item-search-result-list-element.component';
-
+import { CarouselHome } from './app/home-page/carousel-home/carousel-home.component';
 /**
  * Add components that use a custom decorator to ENTRY_COMPONENTS as well as DECLARATIONS.
  * This will ensure that decorator gets picked up when the app loads
@@ -88,6 +88,7 @@ const DECLARATIONS = [
   EditCollectionSelectorComponent,
   EditCommunitySelectorComponent,
   EditItemSelectorComponent,
+  CarouselHome,
 ];
 
 @NgModule({
@@ -104,7 +105,7 @@ const DECLARATIONS = [
   ],
   declarations: DECLARATIONS,
   providers: [
-    ...ENTRY_COMPONENTS.map((component) => ({provide: component}))
+    ...ENTRY_COMPONENTS.map((component) => ({ provide: component }))
   ],
 })
 /**
