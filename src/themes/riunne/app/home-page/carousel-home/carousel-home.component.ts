@@ -4,6 +4,7 @@ import { NgIf } from '@angular/common';
 
 @Component({
     selector: 'ri-carousel-home',
+    standalone: true,
     imports: [NgbCarouselModule, NgIf],
     templateUrl: './carousel-home.component.html',
     styleUrls: ['./carousel-home.component.scss'],
