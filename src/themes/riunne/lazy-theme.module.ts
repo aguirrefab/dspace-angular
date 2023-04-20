@@ -81,7 +81,8 @@ import {
   SubmissionImportExternalComponent
 } from './app/submission/import-external/submission-import-external.component';
 import { SubmissionSubmitComponent } from './app/submission/submit/submission-submit.component';
-import { WorkflowItemDeleteComponent
+import {
+  WorkflowItemDeleteComponent
 } from './app/workflowitems-edit-page/workflow-item-delete/workflow-item-delete.component';
 import {
   WorkflowItemSendBackComponent
@@ -145,6 +146,7 @@ import {
   MediaViewerVideoComponent
 } from './app/item-page/media-viewer/media-viewer-video/media-viewer-video.component';
 import { NgxGalleryModule } from '@kolkov/ngx-gallery';
+import { CarouselHome } from './app/home-page/carousel-home/carousel-home.component';
 
 const DECLARATIONS = [
   FileSectionComponent,
@@ -212,6 +214,7 @@ const DECLARATIONS = [
   MediaViewerComponent,
   MediaViewerImageComponent,
   MediaViewerVideoComponent,
+  CarouselHome,
 ];
 
 @NgModule({
@@ -270,6 +273,7 @@ const DECLARATIONS = [
     DsoSharedModule,
     SystemWideAlertModule,
     NgxGalleryModule,
+    NgbCarouselModule,
   ],
   declarations: DECLARATIONS,
   exports: [
@@ -277,12 +281,12 @@ const DECLARATIONS = [
   ]
 })
 
-  /**
-   * This module serves as an index for all the components in this theme.
-   * It should import all other modules, so the compiler knows where to find any components referenced
-   * from a component in this theme
-   * It is purposefully not exported, it should never be imported anywhere else, its only purpose is
-   * to give lazily loaded components a context in which they can be compiled successfully
-   */
+/**
+ * This module serves as an index for all the components in this theme.
+ * It should import all other modules, so the compiler knows where to find any components referenced
+ * from a component in this theme
+ * It is purposefully not exported, it should never be imported anywhere else, its only purpose is
+ * to give lazily loaded components a context in which they can be compiled successfully
+ */
 class LazyThemeModule {
 }

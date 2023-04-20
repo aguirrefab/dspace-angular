@@ -93,8 +93,8 @@ const DECLARATIONS = [
   EditCollectionSelectorComponent,
   EditCommunitySelectorComponent,
   EditItemSelectorComponent,
-  CarouselHome,
-  HomePageComponent
+
+
 ];
 
 @NgModule({
