@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RIHomeNewsComponent as BaseComponent } from '../../../../../app/home-page/home-news/home-news.component';
+import { HomeNewsComponent as BaseComponent } from '../../../../../app/home-page/home-news/home-news.component';
 @Component({
   selector: 'ri-home-news',
   styleUrls: ['./home-news.component.scss'],
@@ -9,4 +9,4 @@ import { RIHomeNewsComponent as BaseComponent } from '../../../../../app/home-pa
 /**
  * Component to render the news section on the home page
  */
-export class RIHomeNewsComponent { }
+export class HomeNewsComponent extends BaseComponent { }

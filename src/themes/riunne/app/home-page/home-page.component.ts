@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RIHomePageComponent as BaseComponent } from '../../../../app/home-page/home-page.component';
+import { HomePageComponent as BaseComponent } from '../../../../app/home-page/home-page.component';
 
 @Component({
   selector: 'ri-home-page',
@@ -8,4 +8,6 @@ import { RIHomePageComponent as BaseComponent } from '../../../../app/home-page/
   templateUrl: './home-page.component.html'
   //templateUrl: '../../../../app/home-page/home-page.component.html'
 })
-export class RIHomePageComponent { }
+export class HomePageComponent extends BaseComponent {
+
+}

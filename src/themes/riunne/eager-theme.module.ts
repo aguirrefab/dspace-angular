@@ -94,8 +94,6 @@ const DECLARATIONS = [
   EditCommunitySelectorComponent,
   EditItemSelectorComponent,
   RICarouselHome,
-  RIHomePageComponent,
-  RIHomeNewsComponent
 ];
 
 @NgModule({
