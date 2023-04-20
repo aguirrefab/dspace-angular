@@ -8,6 +8,6 @@ import { NgIf } from '@angular/common';
     imports: [NgbCarouselModule, NgIf],
     templateUrl: './carousel-basic.html',
 })
-export class CarouselHome {
+export class CarouselHome extends BaseComponent {
     images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
 }
