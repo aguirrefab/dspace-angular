@@ -53,9 +53,8 @@ import {
 import {
   ItemSearchResultListElementComponent
 } from './app/shared/object-list/search-result-list-element/item-search-result/item-types/item/item-search-result-list-element.component';
-import { CarouselHome, RICarouselHome } from './app/home-page/carousel-home/carousel-home.component';
+import { CarouselHome } from './app/home-page/carousel-home/carousel-home.component';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
-import { RIHomePageComponent } from './app/home-page/home-page.component';
 
 
 
@@ -93,7 +92,7 @@ const DECLARATIONS = [
   EditCollectionSelectorComponent,
   EditCommunitySelectorComponent,
   EditItemSelectorComponent,
-  RICarouselHome,
+  CarouselHome,
 ];
 
 @NgModule({
