@@ -54,7 +54,6 @@ import {
   ItemSearchResultListElementComponent
 } from './app/shared/object-list/search-result-list-element/item-search-result/item-types/item/item-search-result-list-element.component';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
-import { HomePageComponent } from 'src/app/home-page/home-page.component';
 
 
 /**
@@ -75,10 +74,6 @@ const ENTRY_COMPONENTS = [
   StartsWithTextComponent,
   PublicationSidebarSearchListElementComponent,
   ItemSearchResultListElementComponent,
-  HomeNewsComponent,
-  HeaderComponent,
-  NavbarComponent,
-  HomePageComponent
 ];
 
 const DECLARATIONS = [
