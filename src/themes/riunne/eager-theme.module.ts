@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from '../../app/shared/shared.module';
-import { HomeNewsComponent } from '../riunne/app/home-page/home-news/home-news.component';
-import { NavbarComponent } from '../riunne/app/navbar/navbar.component';
+import { HomeNewsComponent } from './app/home-page/home-news/home-news.component';
+import { NavbarComponent } from './app/navbar/navbar.component';
 import { SearchNavbarComponent } from './app/search-navbar/search-navbar.component';
-import { HeaderComponent } from '../riunne/app/header/header.component';
+import { HeaderComponent } from './app/header/header.component';
 import { HeaderNavbarWrapperComponent } from './app/header-nav-wrapper/header-navbar-wrapper.component';
 import { RootModule } from '../../app/root.module';
 import { NavbarModule } from '../../app/navbar/navbar.module';
@@ -54,7 +54,7 @@ import {
   ItemSearchResultListElementComponent
 } from './app/shared/object-list/search-result-list-element/item-search-result/item-types/item/item-search-result-list-element.component';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
-import { HomePageComponent } from '../riunne/app/home-page/home-page.component';
+import { HomePageComponent } from 'src/app/home-page/home-page.component';
 
 
 /**
