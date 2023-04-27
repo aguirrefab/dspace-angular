@@ -44,7 +44,7 @@ export function createTranslateLoader(transferState: TransferState) {
   bootstrap: [AppComponent],
   imports: [
     BrowserModule.withServerTransition({
-      appId: 'dspace-angular'
+      appId: 'RIUNNE'
     }),
     NoopAnimationsModule,
     ServerTransferStateModule,
