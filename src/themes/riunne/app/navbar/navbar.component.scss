@@ -5,11 +5,13 @@ nav.navbar {
     color: var(--ds-header-icon-color);
 }
 
+
+
 /** Mobile menu styling **/
 @media screen and (max-width: map-get($grid-breakpoints, md)-0.02) {
     .navbar {
         width: 100%;
-        background-color: var(--bs-white);
+        background-color: #2b4e72;
         position: absolute;
         overflow: hidden;
         height: 0;
@@ -53,11 +55,12 @@ a.navbar-brand img {
 }
 
 .navbar-nav {
+
     ::ng-deep a.nav-link {
-        color: var(--ds-navbar-link-color);
+        color: #ffffff;
     }
 
     ::ng-deep a.nav-link:hover {
-        color: var(--ds-navbar-link-color-hover);
+        color: #ffffff;
     }
 }
