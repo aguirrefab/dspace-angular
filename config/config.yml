@@ -6,7 +6,7 @@ debug: false
 # "ui" settings usually specify a localhost port/URL which is later proxied to a public URL (using Apache or similar)
 ui:
   ssl: false
-  host: localhost
+  host: 10.60.80.250
   port: 5000
   # NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
   nameSpace: /
@@ -165,15 +165,15 @@ defaultLanguage: es
 
 # Languages. DSpace Angular holds a message catalog for each of the following languages.
 # When set to active, users will be able to switch to the use of this language in the user interface.
-languages:
-  - code: en
-    label: English
-    active: true
-  - code: es
+languages:  
+  - code: es_ES
     label: Español
     active: true
   - code: pt-BR
     label: Português do Brasil
+    active: true
+  - code: en_US
+    label: English
     active: true
 
 # Browse-By Pages
@@ -267,17 +267,17 @@ themes:
       - tagName: link
         attributes:
           rel: icon
-          href: assets/riunne/images/favicons/favicon.ico
+          href: assets/dspace/images/favicons/favicon.ico
           sizes: any
       - tagName: link
         attributes:
           rel: icon
-          href: assets/dspacriunnee/images/favicons/favicon.svg
+          href: assets/dspace/images/favicons/favicon.svg
           type: image/svg+xml
       - tagName: link
         attributes:
           rel: apple-touch-icon
-          href: assets/riunne/images/favicons/apple-touch-icon.png
+          href: assets/dspace/images/favicons/apple-touch-icon.png
       - tagName: link
         attributes:
           rel: manifest
